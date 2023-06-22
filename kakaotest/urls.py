@@ -6,5 +6,6 @@ app_name = 'kakaotest'
 
 urlpatterns = [
     # path('',views.index, name='index'),
-    path('',include('poll.urls')),
+    path('',include('kakaotest.urls')),
+    path('success/',include(''))
 ]
